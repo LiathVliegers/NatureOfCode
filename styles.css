@@ -1,0 +1,98 @@
+
+body{
+	overflow-x: hidden;
+}
+
+button{
+	position: fixed;
+	right: 30px;
+	top: 23px;
+	border: 2px solid white;
+	border-radius: 5px !important;
+	padding: 2px 10px;
+	background-color: white;
+	color: #D30051;
+	font-weight: bold;
+}
+
+button:hover{
+	background-color: #F3F4F6;
+    cursor: alias;
+}
+
+.header{
+	position: fixed;
+	top: -29px;
+	right: 12px;
+	width: 100%;
+	padding: 45px 20px 15px 30px;
+	background-color: #EB005A;
+}
+
+.mid-section{
+	padding: 120px 30px 80px 40px;
+	background-color: white;
+}
+
+.notes_container{
+	overflow-y: auto;
+}
+
+.footer{
+	position: fixed;
+	bottom: -20px;
+	right: 12px;
+	width: 100%;
+	padding: 20px;
+	background-color: white;
+}
+
+.text_titel{
+	color: white;
+	font-weight: bolder;
+	text-decoration: none;
+	letter-spacing: 5px;
+}
+
+.text_header{
+	color: white;
+	letter-spacing: 3px;
+}
+
+h1{
+	font-weight: bold !important;
+}
+
+h2{
+	font-weight: bold !important;
+}
+
+h3{
+	font-weight: bold !important;
+}
+
+.text_navigation{
+	font-weight: bold;
+	line-height: 50px;
+	color: black;
+}
+
+.text_date{
+	text-align: left;
+	color: #EB005A;
+}
+
+.text_contact{
+	text-align: right;
+	color: #EB005A;
+}
+
+.link{
+	text-decoration: none;
+}
+
+.link:hover{
+	transition: all 400ms ease;
+	text-decoration: underline;
+	cursor: alias;
+}
